@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.default {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.hovered {
+  background-color: aqua;
+}
+
+.clicked {
+  background-color: blue;
+  color: white;
+}
