@@ -10,7 +10,7 @@ export default {
   excludeStories: /.*Data$/,
 };
 
-export const Default = () => <Button buttonState="default" />;
-export const Hovered = () => <Button buttonState="hovered" />;
-export const Clicked = () => <Button buttonState="clicked" />;
+// export const Default = () => <Button buttonState="default" />;
+// export const Hovered = () => <Button buttonState="hovered" />;
+// export const Clicked = () => <Button buttonState="clicked" />;
 export const Primary = () => <Button buttonState="primary" />;

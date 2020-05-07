@@ -1,28 +1,29 @@
 {
-  "plugins": [
-    {
-      "name": "@zeplin/cli-connect-react-plugin"
-    },
-    {
-      "name": "@zeplin/cli-connect-storybook-plugin",
-      "config": {
-        "url": "https://frosty-johnson-555066.netlify.app/"
-      }
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:9009",
+                "startScript": "storybook"
+            }
+        }
+    ],
+    "projects": [
+        "5d0b879f770b38566405cbf6"
+    ],
+    "styleguides": [],
+    "components": [
+        {
+            "path": "src/components/Button.js",
+            "zeplinNames": [
+                "Buttons/Simple"
+            ]
+        }
+    ],
+    "github": {
+        "repository": "mbmaurya/storybook-demo"
     }
-  ],
-  "projects": ["5d0b879f770b38566405cbf6"],
-  "styleguides": [],
-  "components": [
-    {
-      "path": "src/components/Button.js",
-      "zeplinNames": [
-        "Buttons/Genre/Inactive",
-        "Buttons/Genre/Active",
-        "Buttons/Simple"
-      ]
-    }
-  ],
-  "github": {
-    "repository": "mbmaurya/storybook-demo"
-  }
 }
